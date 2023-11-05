@@ -55,48 +55,33 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada aplikasi ini. Menj
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari .dalam studi kasus Proyek II ini kami menganalisis kebutuhan suatu desa di daerah Indramayu tepatnya di desa Lohbener Kecamatan Lohbener .kasus yang kami peroleh pembuatan laporan kependudukan di desa Lohbener ini. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan pemerintah desa dengan menerapkan manajemen administrasi data kependudukan desa Lohbener. Sehingga memudahkan admin dalam menginputkan data-data kependudukan. Software yang kami buat ini berbasis website dimana website sebagai admin, sekdes dan kepala desa. Sistem yang kami buat di dalamnya terdapat angka kelahiran, angka kematian, pekerjaan, agama, laporan ( untuk admin/sekdes ), grafik dan laporan ( untuk kepala desa ). Berikut akan kami jelaskan  sistem software kami,  admin fungsi utama yaitu :
-   - Input Judul 
-   - Input ISBN
-   - Input Penerbit
-   - Input Tahun
-   - Input Jumlah 
-   - Input Kategori
-   - Input Tanggal Pinjam
-   - Input Tanggal Kembali
-   
-   Berikut ini fungsi user dalam bentuk grafik :
-   - View Judul
-   - View ISBN
-   - View Penerbit
-   - View Tahun
-   - View Jumlah 
-   - View Kategori
-   - View Tanggal Pinjam
-   - View Tanggal Kembali
+Pada zaman era globalisasi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari-hari. Dalam studi kasus proyek ini kami menganalisis suatu kebutuhan SLB di Pekanbaru tepatnya di Jl. Dr. Sutomo, Kecamatan Sail. Kasus yang kami peroleh adalah Pembuatan Sistem Manajemen Perpustakaan SLB Sri Mujinab. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan SLB dengan menerapkan manajemen perpustakaan SLB Sri Mujinab. Sehingga memudahkan pustakawan dalam mengelola data buku. Software yang kami buat ini berbasis website dimana website sebagai admin, siswa atau tamu. Sistem yang kami buat di dalamnya terdapat:
+
 2.1   Perspektif produk
 ----------
 Manajemen Perpustakaan SLB Sri Mujinab adalah sebuah sistem Perpustakaan yang diaplikasikan pada website. Terdapat 1 jenis admin, yaitu Pustakawan. Pengelolaan data dikelola oleh Pustakawan ada website dan Siswa & Tamu dapat mencari buku pada website.
 
 Pada sistem manajemen perpustakaan ini akan menampilkan buku yang sudah diinputkan oleh admin
+
 **2.1.1 Antarmuka sistem**
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png)
 
 Sistem Manajemen Perpustakaan SLB Sri Mujinab memiliki 2 user, yaitu Siswa atau Tamu dan Pustakawan. Pustakawan bertugas untuk mengelola data, agar bisa diakses oleh Siswa atau Tamu. Sedangkan, Siswa atau Tamu yang akan mengakses data di Sistem ini.
+
 **2.1.2 Antarmuka pengguna**
 
    - **Mockup Admin ( Website )**
 
 |  |  |
 |--|--|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/86bc2686530b154be24145f1b34402e5fb12a11b/Img/1%20Home%20User.jpg) Pada halaman login admin diminta untuk mengisi username dan password.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/86bc2686530b154be24145f1b34402e5fb12a11b/Img/2%20Hasil%20Pencarian.jpg) Pada Dashboard admin terdapat panel-panel seperti penduduk, pendidikan, agama, pekerjaan, laporan dan ucapan selamat datang.|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/3%20Detail%20Buku%20User.jpg) Pada halaman dashboard ada navigation bar kependudukan yang berisi dropdown angka kelahiran dan angka kematian| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/4%20Login%20Pustakawan.jpg) Pada Halaman agama dapat menginputkan data agama penduduk|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/5%20Home%20Pustakawan.jpg) Pada Halaman pekerjaan dapat menginputkan data pekerjaan penduduk| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/6%20Data%20Buku.jpg) Pada Halaman warga dapat menginputkan data warga|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/7%20Edit%20Detail%20Buku.jpg) Pada Halaman pendidikan dapat menginputkan data pendidikan penduduk| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/8%20Tambah%20Buku.jpg) Pada Halaman kelahiran dapat menginputkan data kelahiran penduduk|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/9%20Telah%20dipinjam.jpg) Pada Halaman kematian dapat menginputkan data kematian penduduk| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/10%20Detail%20Data%20Peminjaman.jpg) Pada Halaman grafik kelahiran dapat melihat data angka kelahiran|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/11%20Peminjaman%20Buku.jpg) Pada Halaman grafik kematian dapat melihat data angka kematian| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/12%20Pinjam%20Buku.jpg) Pada Halaman laporan dapat melihat dan mendownload laporan penduduk|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/13%20Telah%20Dipinjam.jpg) Pada Halaman grafik kematian dapat melihat data angka kematian|
+| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/86bc2686530b154be24145f1b34402e5fb12a11b/Img/1%20Home%20User.jpg) Pada halaman ini menampilkan Rekomendasi buku dan Buku popular, kemudian juga terdapat tempat pencarian buku| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/86bc2686530b154be24145f1b34402e5fb12a11b/Img/2%20Hasil%20Pencarian.jpg) Pada halaman ini adalah hasil pencarian jika anda melakukan pencarian buku.|
+| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/3%20Detail%20Buku%20User.jpg) Halaman ini menampilkan detail dari buku yang anda pilih.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/4%20Login%20Pustakawan.jpg) Halaman ini meminta pustakawan untuk memasukkan username dan passwordnya untuk masuk ke halaman utama pustakawan.|
+| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/5%20Home%20Pustakawan.jpg) Pada halaman utama pustakawan, terdapat Total Buku, Telah Dipinjam, Sedang Dipinjam, dan Tersedia.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/6%20Data%20Buku.jpg) Pada Halaman Total buku, terdapat seluruh judul buku beserta detailnya.|
+| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/7%20Edit%20Detail%20Buku.jpg) Pada halaman ini, pustakawan dapat memodifikasi detail buku yang ingin diubah.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/8%20Tambah%20Buku.jpg) Pada halaman ini, pustakawan dapat menambahkan judul buku.|
+| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/9%20Telah%20dipinjam.jpg) Pada halaman ini, menampilkan seluruh siswa yang sedang meminjam buku.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/10%20Detail%20Data%20Peminjaman.jpg) Pada halaman ini, admin dapat memodifikasi dan juga mengubah status peminjaman buku.|
+| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/11%20Peminjaman%20Buku.jpg) Pada halaman ini, Terdapat daftar buku yang dipinjam dan tempat mendaftarkan siswa yang ingin meminjam buku.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/12%20Pinjam%20Buku.jpg) Pada halaman ini, pustakawan memasukkan data peminjam.|
+| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/13%20Telah%20Dipinjam.jpg) Halaman ini menampilkan riwayat peminjaman buku.|
  
 **2.1.3 Antarmuka perangkat keras**
 
