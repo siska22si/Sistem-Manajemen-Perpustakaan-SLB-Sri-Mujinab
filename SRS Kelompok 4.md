@@ -134,7 +134,8 @@ Use Case: Melihat Status
 Diagram : 
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login%20kepdes.png)
 
-Deskripsi Singkat 
+Deskripsi Singkat
+
 Siswa & Tamu  dapat melihat buku yang tersedia pada aplikasi perpustakaan SLB Sri Mujinab. Deskripsi Langkah-langkah
 
 1. Siswa & Tamu mencari judul buku yang diinginkan
@@ -150,7 +151,8 @@ Use Case: Pencarian Buku
 Diagram: 
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kepdes%20generate%20laporan.png)
 
-Deskripsi Singkat 
+Deskripsi Singkat
+
 Siswa & Tamu dapat melakukan pencarian buku pada halaman aplikasi tanpa melakukan login. Deskripsi Langkah-langkah
 
 1. Siswa & Tamu membuka halaman web
@@ -167,7 +169,8 @@ Use Case: Pustakawan Login
 Diagram :
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login.png)
 
-Deskripsi Singkat 
+Deskripsi Singkat
+
 Pustakawan melakukan login dengan memasukkan username password. Deskripsi Langkah-langkah
 
 1. Pustakawan melakukan login dengan username dan password
@@ -183,7 +186,8 @@ Use Case: Mengelola data buku
 Diagram:
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20kelola%20data2.png)
       
-Deskripsi Singkat 
+Deskripsi Singkat
+
 Pustakawan melakukan pengelolaan data buku dengan menginputkan data tahun, data kategori, data nomor buku, data judul, dan data penerbit. Deskripsi Langkah-langkah
 
 1. Pustakawan melakukan input data, tahun, kategori, nomor buku, judul, dan penerbit.
@@ -199,7 +203,8 @@ Use Case: Mengelola data peminjaman buku
 Diagram:
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20data%20kependudukan.png)
 
-Deskripsi Singkat 
+Deskripsi Singkat
+
 Mengelola data peminjaman buku dengan menginputkan data peminjaman buku dan sistem menyimpan data pada database. Deskripsi Langkah-langkah
 
 1. Pustakawan melakukan input data buku pinjaman, tanggal peminjaman,nama peminjam, dan kelas peminjam
@@ -215,7 +220,8 @@ Use Case: Mengelola data pengembalian buku
 Diagram:
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20generate%20laporan.png)
 
-Deskripsi Singkat 
+Deskripsi Singkat
+
 Pustakawan mengelola data pengembalian buku dengan melakukan input data tanggal pengembalian dan menyimpan pada database. Deskripsi Langkah-langkah
 
 1. Admin akan mencari data peminjaman buku yang ingin dikembalikan
@@ -225,8 +231,6 @@ Pustakawan mengelola data pengembalian buku dengan melakukan input data tanggal 
 
 Xref: Bagian 3.2.6, Mengelola data pengembalian buku
 
-
-
 2.3   Spesifikasi Kebutuhan non-fungsional
 ----------
 - Tabel Kebutuhan Non-Fungsional 
@@ -234,20 +238,20 @@ Xref: Bagian 3.2.6, Mengelola data pengembalian buku
    | No | Deskripsi |
    | ------ | ------ |
    | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
-   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS ( Admin, sekdes dan kepala desa ) 
+   | 2 | Perangkat Lunak dapat dipakai di semua platform OS (pustakawan, siswa dan tamu) |
  
 2.4   Karakteristik pengguna
 ----------
-Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem tanpa harus dihubungkan dengan hak akses atau level autentikasi.
+Karakteristik pengguna dari perangkat lunak dari perangkat ini adalah pengguna langsung berinteraksi dengan sistem tanpa harus dihubungkan dengan hak akses atau level autentikasi.
 
 2.5   Batasan-batasan
 ----------
-- Perangkat lunak web hanya dijalankan di windows (7,8,10,11). 
-- Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
+- Perangkat lunak web hanya dijalankan di windows (7, 8, 10, 11)
+- Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan
 
 2.6   Asumsi-asumsi
 ----------
-Maksimal penginputan id atau memasukkan kode pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan"Anda telah melebihi batas maksimum".
+Maksimal penginputan id atau memasukkan kode pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan “Anda telah melebihi batas maksimum”.
 
 2.7   Kebutuhan Penyeimbang
 ----------
@@ -258,22 +262,23 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Cara mengakses web ini yaitu dengan siswa & tamu  membuka website Perpustakaan SLB Sri Mujinab, kemudian dapat secara langsung mencari buku yang diinginkan, dan dapat melakukan peminjaman buku dan pengembalian buku kepada pustakawan, sedangkan pustakawan melakukan login terlebih dahulu dengan mencantumkan username dan password kemudian sistem mencocokkan username  dan password pustakawan. Setelah login berhasil pustakawan dapat mengelola data buku,data peminjaman buku, dan data pengembalian buku di website tersebut.      
+Cara mengakses web ini yaitu dengan siswa & tamu  membuka website Perpustakaan SLB Sri Mujinab, kemudian dapat secara langsung mencari buku yang diinginkan, dan dapat melakukan peminjaman buku dan pengembalian buku kepada pustakawan, sedangkan pustakawan melakukan login terlebih dahulu dengan mencantumkan username dan password kemudian sistem mencocokkan username  dan password pustakawan. Setelah login berhasil pustakawan dapat mengelola data buku,data peminjaman buku, dan data pengembalian buku di website tersebut.
+    
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
       
-**3.2.1 Melihat status**
+**3.2.1 Siswa & Tamu melihat status**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Melihat status |
-| Xref | Bagian 2.2.1, Melihat Status |
-| Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
-| Precondition | Halaman detail buku |
-| Basic Path | 1. Siswa & tamu mencari judul yang diinginkan <br> 2. Siswa & tamu menekan buku yang dipilih <br> 3. Sistem akan menampilkan detail buku beserta status ketersediaan buku |
+| Xref | Halaman detail buku |
+| Trigger | Membuka halaman web Perpustakaan Sri Mujinab |
+| Precondition | Halaman data buku |
+| Basic Path | 1.Siswa & tamu mengklik tombol search <br> 2. Siswa & Tamu mengetikkan judul buku yang ingin dibaca atau dipinjam <br> 3.Sistem menampilkan buku yang dicari dan status buku yang tersedia |
 | Alternative | Tidak ada |
-| Post Condition | Siswa & Tamu dapat melihat status ketersediaan buku pada website Perpustakaan SLB Sri Mujinab |
+| Post Condition | Siswa & Tamu dapat melihat status buku pada web Perpustakaan SLB Sri Mujinab |
 | Exception Push | Tidak ada koneksi |
       
 **3.2.2 Siswa & tamu mencari buku**
@@ -282,24 +287,24 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi | Pencarian buku |
 | Xref | Bagian 2.2.2, Pencarian buku |
-| Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
-| Precondition | Halaman awal |
-| Basic Path | 1. Mengisi judul yang ingin dicari di kolom pencarian <br> 2. Sistem akan menampilkan hasuk pencarian |
-| Alternative | Tidak ada |
-| Post Condition | Kepala desa melihat laporan kependudukan |
-| Exception Push | Tidak ada judul yang terkait |
+| Trigger | Membuka halaman web Perpustakaan Sri Mujinab |
+| Precondition | Halaman pencarian buku |
+| Basic Path | 1. Siswa & Tamu mengklik tombol search <br> 2. Sistem menampilkan papan ketik <br>3. Siswa & Tamu mengetikkan buku yang diinginkan <br> 4.Sistem menampilkan buku yang diketikkan |
+| Alternative | Mencari judul buku lain |
+| Post Condition | Siswa & Tamu menemukan buku yang diinginkan pada aplikasi Perpustakaan SLB Sri Mujinab |
+| Exception Push | Salah mengetikkan judul buku |
    
-**3.2.3 Pustakwan login**
+**3.2.3 Pustakawan melakukan login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Pustakawan login |
 | Xref | Bagian 2.2.3, Pustakawan login |
-| Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
+| Trigger | Membuka halaman web Perpustakaan Sri Mujinab |
 | Precondition | Halaman login pustakawan |
-| Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
+| Basic Path | 1.Pustakawan melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. sistem akan mengarahkan halaman beranda perpustakawan |
 | Alternative | Tidak ada |
-| Post Condition | Admin berhasil login dan mengakses website manajemen perpustakaan SLB Sri Mujinab |
+| Post Condition | Pustakawan dapat login dan dapat mengelola Aplikasi SLB Sri Mujinab |
 | Exception Push | Username dan password salah |
    
 **3.2.4 Pustakawan mmengelola data buku**
@@ -310,48 +315,36 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.4, Mengelola data buku |
 | Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
 | Precondition | Halaman data buku |
-| Basic Path | 1. Admin dapat menambah dan <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
+| Basic Path | - Tambah buku: <br> 1. Pustakawan membuka halaman data buku <br> 2. Pustakawan menekan ikon tambah <br> 3.Sistem akan menampilkan form penambahan <br> 4.Pustakawan mengisi form dan menekan button “simpan” untuk menyimpan <br> <br> - Hapus Buku: <br> 1. Pustakawan membuka halaman data buku <br> 2. Pustakawan memilih buku yang ingin dihapus dan menekan ikon detail <br> 3. Sistem akan memunculkan detail buku <br> 4.Pustakawan menekan tombol “hapus” <br><br> - Edit Buku: <br> 1. Pustakawan membuka halaman data buku <br> 2. Pustakawan memilih buku yang ingin diedit dan menekan ikon detail <br> 3. Pustakawan dapat mengedit data buku <br> 4. Pustakawan menekan button “simpan: untuk menyimpan|
 | Alternative | Tidak ada |
-| Post Condition | Halaman form input data kependudukan |
+| Post Condition | Halaman data buku |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.5 Admin melihat data kependudukan**
+**3.2.5 Pustakawan mengelola data peminjaman buku**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View data kependudukan |
-| Xref | Bagian 2.2.5, View data kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman form input data |
-| Basic Path | 1. Sistem akan menampilkan data kependudukan desa Lohbener. <br> 2. Admin melihat data dan dapat mengedit atau menghapusnya. <br> 3. Sistem menampilkan edit data kependudukan <br>4. Admin  mengedit data kependudukan yang baru atau yang sudah ada<br>5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan|
+| Nama Fungsi | Mengelola data peminjaman buku |
+| Xref | Bagian 2.2.5, Mengelola data peminjaman buku |
+| Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
+| Precondition | Halaman peminjaman buku |
+| Basic Path | 1. Pustakawan menekan menu “peminjaman buku” <br> 2. Sistem akan menampilkan data buku yang sedang dipinjam <br> 3. Pustakawan menekan ikon tambah <br> 4. Pustakawan melakukan input data buku pinjaman, tanggal peminjaman,nama peminjam, dan jumlah buku yang dipinjam <br> 5. Pustakawan menekan button “simpan” untuk menyimpan <br> 6. Sistem menyimpan data peminjaman buku|
 | Alternative | Tidak ada |
-| Post Condition | Halaman data kependudukan |
+| Post Condition | Halaman data peminjaman buku |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.6 Cetak Laporan**
+**3.2.6 Pustakawan mengelola data pengembalian buku**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Laporan |
-| Xref | Bagian 2.2.6, Cetak Laporan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | halaman utama admin |
-| Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. <br>5. Admin mencetak laporan  |
+| Nama Fungsi | Mengelola data pengembalian buku |
+| Xref | Bagian 2.2.6, Mengelola data pengembalian buku |
+| Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
+| Precondition | Halaman Peminjaman buku |
+| Basic Path | 1. Pustakawan menekan menu “peminjaman buku” <br> 2.  Sistem akan menampilkan data peminjaman buku <br> 3.  Pustakawan mencari data peminjam yang ingin mengembalikan buku <br> 4. Pustakawan menekan ikon “detail’ <br> 5. Sistem akan menampilkan detail peminjaman <br> 6. Pustakawan menekan button “selesai” |
 | Alternative | Tidak ada |
-| Post Condition | Halaman Laporan |
-| Exception Push | Tidak ada koneksi, data belum diinput |
-
-**3.2.7  Admin mengelola user**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Mengelola user |
-| Xref | Bagian 2.2.7, Mengelola user |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener | 
-| Precondition | halaman utama admin |
-| Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.<br>3. Sistem akan menyimpan data user ke database.  |
-| Post Condition | Halaman user |
-| Exception Push | Tidak ada koneksi, data belum diinput |
+| Post Condition | Halaman data peminjaman buku |
+| Exception Push | Tidak ada koneksi |
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
