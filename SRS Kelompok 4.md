@@ -28,9 +28,11 @@
 1.1 Tujuan
 ----------
 Dokumen Software Specification (SRS) ini  merupakan sebuah  dokumen spesifikasi perangkat lunak yang berguna untuk membangun “Sistem Manajemen Perpustakaan SLB Sri Mujinab”. Dokumen ini berguna untuk memudahkan serta dapat mengelola semua aspek perpustakaan dengan efisien dan efektif. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun perangkat lunak “Sistem Manajemen Perpustakaan SLB Sri Mujinab”. 
+
 1.2   Lingkup
 ----------
 Sistem Manajemen Perpustakaan ini merupakan aplikasi yang kami bangun untuk mempermudah pustakawan, siswa dan tamu dalam melihat perkembangan data perpustakaan yaitu perkembangan judul buku, penerbit, tahun, jumlah buku, dan perkembangan kategori buku.
+
 1.3    Akronim, singkatan, definisi
 ----------
 
@@ -50,6 +52,7 @@ Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
 ----------
 
 Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada aplikasi ini. Menjelaskan bagaimana gambaran umum dari aplikasi, sistem interface aplikasi dan bagaimana alur sistemnya. Bab terakhir menjelaskan tentang setiap fungsi yang digunakan secara teknisnya. Pada bab 2 dan 3 merupakan deskripsi dari aplikasi yang akan diterapkan pada aplikasi yang dibuat.
+
 **BAB II Gambaran umum**
 ----------
 Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari .dalam studi kasus Proyek II ini kami menganalisis kebutuhan suatu desa di daerah Indramayu tepatnya di desa Lohbener Kecamatan Lohbener .kasus yang kami peroleh pembuatan laporan kependudukan di desa Lohbener ini. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan pemerintah desa dengan menerapkan manajemen administrasi data kependudukan desa Lohbener. Sehingga memudahkan admin dalam menginputkan data-data kependudukan. Software yang kami buat ini berbasis website dimana website sebagai admin, sekdes dan kepala desa. Sistem yang kami buat di dalamnya terdapat angka kelahiran, angka kematian, pekerjaan, agama, laporan ( untuk admin/sekdes ), grafik dan laporan ( untuk kepala desa ). Berikut akan kami jelaskan  sistem software kami,  admin fungsi utama yaitu :
