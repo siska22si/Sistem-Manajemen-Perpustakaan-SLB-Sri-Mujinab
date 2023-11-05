@@ -1,24 +1,10 @@
 <html>
 <body>
-<div align="center"><h1> Software Requirements Spesification</h1></div>
 
-<p align="center">1 November 2023</b>
 <p align="center">
-<img src="https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image/POLINDRA.png" width="250" height="250"/ >
+<img src="https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/c8d3b3bf3ceef6afc20160a84ac68ccfda32fe5a/Img/Cover.jpg"/ >
 </p>
 
-<p align="center"><b>Manajemen Perpustakaan SLB Sri Mujinab<br>
-</b>
-<p align="center">Kelompok 4 <br>
- Siska Limarga            (2257301127)<br>
- Afifah Aulia Amri    (2257301006)<br>
- Nisa Khotimah       (2257301106)<br><br><br>
-
-<p align="center"><b>Program Studi Sistem Informasi</b><br>
-<p align="center"><b>Jurusan Teknologi Informasi</b><br>
-<p align="center"><b>Politeknik Caltex Riau</b>
-<p align="center"><b>2018</b>
-</p>
 </body>
 </html>
  
@@ -345,20 +331,13 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Alternative | Tidak ada |
 | Post Condition | Halaman data peminjaman buku |
 | Exception Push | Tidak ada koneksi |
-   
-3.3 Struktur Detail Kebutuhan Non-Fungsional
-----------
-**3.3.1 Logika Struktur Data**
-Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
-
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/erd_proyek2.png)
 
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](Img/ERD FRAMEWORK.drawio.png)
+![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/249fd09599a007d24c418f87fef47a557694fb44/Img/ERD%20FRAMEWORK.drawio.png)
 
 **Tabel Pustakawan**
 
@@ -392,38 +371,39 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | tanggal_kembali | date | Tanggal buku dikembalikan |
 
 **Pembagian Jobdesc**
+----------
 
-BAB 1 Pendahuluan
-1.1 Tujuan : Nisa Khotimah
-1.2 Lingkup : Nisa Khotimah
-1.3 Akronim, singkatan, definisi : Nisa Khotimah
-1.4 Referensi : Nisa Khotimah
-1.5 Overview : Nisa Khotimah
-BAB 2 Gambaran Umum
-2.1 Perspektif Produk : Siska Limarga
-2.1.1 Antarmuka Sistem : Siska Limarga
-2.1.2 Antarmuka pengguna : Siska Limarga & Afifah Aulia Amri
-2.1.3 Antarmuka perangkat keras : Siska Limarga
-2.1.4 Antarmuka perangkat lunak : Siska Limarga
-2.1.5 Antarmuka Komunikasi : Siska Limarga
-2.1.6 Batasan memori : Siska Limarga
-2.1.7 Operasi-operas : Siska Limarga
-2.1.8 Kebutuhan adaptasi : Siska Limarga 
-2.2 Spesifikasi Kebutuhan fungsional : Siska Limarga 
-2.2.1 Siswa & tamu melihat status : Afifah Aulia Amri
-2.2.2 Siswa & Tamu mencari buku : Afifah Aulia Amri
-2.2.3 Pustakawan login : Afifah Aulia Amri
-2.2.4 Pustakawan mengelola data buku : Afifah Aulia Amri
-2.2.5 Pustakawan mengelola data peminjaman buku : Afifah Aulia Amri
-2.2.6 Pustakawan mengelola data pengembalian buku : Afifah Aulia Amri
-2.3 Spesifikasi Kebutuhan non-fungsional : Siska Limarga
-2.4 Karakteristik pengguna : Siska Limarga
-2.5 Batasan-batasan : Siska Limarga
-2.6 Asumsi-asumsi : Siska Limarga
-2.7 Kebutuhan Penyeimbang : Siska Limarga
-BAB III Requirement specification
-3.1 Persyaratan Antarmuka Eksternal : Afifah Aulia Amri
-3.2 Functional Requirement : Afifah Aulia Amri
-3.3 Struktur Detail Kebutuhan Non-Fungsional : Siska Limarga
-FIGMA : Siska Limarga & Afifah Aulia Amri
+BAB 1 Pendahuluan <br>
+1.1 Tujuan : Nisa Khotimah <br>
+1.2 Lingkup : Nisa Khotimah <br>
+1.3 Akronim, singkatan, definisi : Nisa Khotimah <br>
+1.4 Referensi : Nisa Khotimah <br>
+1.5 Overview : Nisa Khotimah <br>
+BAB 2 Gambaran Umum <br>
+2.1 Perspektif Produk : Siska Limarga <br>
+2.1.1 Antarmuka Sistem : Siska Limarga <br>
+2.1.2 Antarmuka pengguna : Siska Limarga & Afifah Aulia Amri <br>
+2.1.3 Antarmuka perangkat keras : Siska Limarga <br>
+2.1.4 Antarmuka perangkat lunak : Siska Limarga <br>
+2.1.5 Antarmuka Komunikasi : Siska Limarga <br>
+2.1.6 Batasan memori : Siska Limarga <br>
+2.1.7 Operasi-operas : Siska Limarga <br>
+2.1.8 Kebutuhan adaptasi : Siska Limarga <br>
+2.2 Spesifikasi Kebutuhan fungsional : Siska Limarga <br>
+2.2.1 Siswa & tamu melihat status : Afifah Aulia Amri <br>
+2.2.2 Siswa & Tamu mencari buku : Afifah Aulia Amri <br>
+2.2.3 Pustakawan login : Afifah Aulia Amri <br>
+2.2.4 Pustakawan mengelola data buku : Afifah Aulia Amri <br>
+2.2.5 Pustakawan mengelola data peminjaman buku : Afifah Aulia Amri <br>
+2.2.6 Pustakawan mengelola data pengembalian buku : Afifah Aulia Amri <br>
+2.3 Spesifikasi Kebutuhan non-fungsional : Siska Limarga <br>
+2.4 Karakteristik pengguna : Siska Limarga <br>
+2.5 Batasan-batasan : Siska Limarga <br>
+2.6 Asumsi-asumsi : Siska Limarga <br>
+2.7 Kebutuhan Penyeimbang : Siska Limarga <br>
+BAB III Requirement specification <br>
+3.1 Persyaratan Antarmuka Eksternal : Afifah Aulia Amri <br>
+3.2 Functional Requirement : Afifah Aulia Amri <br>
+3.3 Struktur Detail Kebutuhan Non-Fungsional : Siska Limarga <br>
+FIGMA : Siska Limarga & Afifah Aulia Amri <br>
 GitHub : Siska Limarga
