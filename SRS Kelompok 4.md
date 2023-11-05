@@ -65,7 +65,7 @@ Pada sistem manajemen perpustakaan ini akan menampilkan buku yang sudah diinputk
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png)
+![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/use%20case%20Sistem%20Manajemen%20Perpustakaan.png)
 
 Sistem Manajemen Perpustakaan SLB Sri Mujinab memiliki 2 user, yaitu Siswa atau Tamu dan Pustakawan. Pustakawan bertugas untuk mengelola data, agar bisa diakses oleh Siswa atau Tamu. Sedangkan, Siswa atau Tamu yang akan mengakses data di Sistem ini.
 
@@ -85,7 +85,7 @@ Sistem Manajemen Perpustakaan SLB Sri Mujinab memiliki 2 user, yaitu Siswa atau 
  
 **2.1.3 Antarmuka perangkat keras**
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20perangkat%20keras%202.png)
+![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/5bb4ecc6232f08978c0335aae76b28f370b12bed/Img/interface%20hardware.drawio.png)
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Manajemen Perpustakaan SLB Sri Mujinab antara lain :
 
@@ -125,14 +125,14 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case1.png)
+![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/Lengkap.png)
    
 **2.2.1 Siswa & Tamu melihat status**
 
 Use Case: Melihat Status
 
 Diagram : 
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login%20kepdes.png)
+![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/MelihatStatus.png)
 
 Deskripsi Singkat
 
@@ -149,7 +149,7 @@ Xref: Bagian 3.2.1 Melihat status
 Use Case: Pencarian Buku
 
 Diagram: 
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kepdes%20generate%20laporan.png)
+![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/MencariBuku.png)
 
 Deskripsi Singkat
 
@@ -167,7 +167,7 @@ Xref: Bagian 3.2.2 Pencarian buku
 Use Case: Pustakawan Login
 
 Diagram :
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login.png)
+![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/Login.png)
 
 Deskripsi Singkat
 
@@ -184,7 +184,7 @@ Xref: Bagian 3.2.3, Pustakawan Login
 Use Case: Mengelola data buku
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20kelola%20data2.png)
+![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/Mengelola%20Data%20Buku.png)
       
 Deskripsi Singkat
 
@@ -201,7 +201,7 @@ Xref: Bagian 3.2.4, Mengelola data buku
 Use Case: Mengelola data peminjaman buku
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20data%20kependudukan.png)
+![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/Mengelola%20data%20peminjaman%20buku.png)
 
 Deskripsi Singkat
 
@@ -218,7 +218,7 @@ Xref: Bagian 3.2.5, Mengelola data peminjaman buku
 Use Case: Mengelola data pengembalian buku
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20generate%20laporan.png)
+![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/Mengelola%20Data%20Pengembalian%20Buku.png)
 
 Deskripsi Singkat
 
