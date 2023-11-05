@@ -353,143 +353,77 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/erd_proyek2.png)
 
-**Tabel User**
+3.3 Struktur Detail Kebutuhan Non-Fungsional
+----------
+**3.3.1 Logika Struktur Data**
+Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
+
+![enter image description here](Img/ERD FRAMEWORK.drawio.png)
+
+**Tabel Pustakawan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_user| int | Nomer auto increment Id_user|
-| Username | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
-| Password | varchar | berisikan password untuk login admin dan user |
-| level | varchar | untuk membedakan level saat login antara admin dan user
+| Id_pustakawan | int | Nomor auto increment id_pustakawan|
+| Username | varchar | berisikan Nama Lengkap untuk akses pustakawan |
+| Password | varchar | berisikan password untuk login pustakawan |
 
-**Tabel Warga**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| NIK | varchar | nomer kependudukan|
-| Nama | varchar | nomer kependudukan|
-| jns_kelamin | varchar | Identifikasi jenis kelamin|
-| Tgl_lahir | date | tanggal lahir peserta |
-| Agama | varchar | Identifikasi agama |
-
-**Tabel Pegawai**
+**Tabel Buku**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_pegawai| int | Nomer auto increment Id_bioadmin|
-| Id_user| int | untuk mengambil username dan password admin pada tabel user|
-| nik| varchar | nik admin|
-| jabatan | varchar | mendefinisikan level user |
-| tgl_masuk | date | awal jabatan|
-| tgl_keluar | date | akhir jabatan|
+| id_buku | int | Nomor auto increment id_buku|
+| judul | varchar | Judul buku|
+| ISBN | int | Nomor ISBN buku|
+| penerbit | varchar | Penerbit buku |
+| Kategori | varchar | Kategori buku |
+| jumlah | int | Jumlah buku |
+| tahun | int | Tahun terbit buku |
+| status | varchar | Status ketersediaan buku |
 
-**Tabel Kelahiran**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kelahiran| int | Nomer auto increment Id_kelahiran|
-| Id_warga| int | foreignt key tabel warga |
-| tgl_lahir| date | tanggal lahir anak |
-| jns_kelamin| varchar | jenis kelamin anak|
-| ayah | varchar | nama ayah|
-| ibu | varchar | nama ibu|
-| tmp_lahir| varchar | tempat lahir anak |
-| rt | int | nomor rt|
-| rw | int | nomor rw|
-
-**Tabel Kematian**
+**Tabel Peminjaman**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_kematian| int | Nomer auto increment Id_kematian|
-| Id_warga| int | foreignt key tabel warga |
-| tmp_kematian| varchar | tempat lahir anak |
-| tgl_kematian| date | tanggal lahir anak |
-| rt | int | nomor rt|
-| rw | int | nomor rw|
+| id_pinjam | int | Nomor auto increment id_pinjam|
+| id_buku | int | Untuk mengambil data buku dari tabel buku|
+| nama_peminjam | varchar | Nama peminjam buku|
+| tanggal_pinjam | date | Tanggal buku dipinjam |
+| tanggal_kembali | date | Tanggal buku dikembalikan |
 
-**Tabel Pekerjaan**
+**Pembagian Jobdesc**
 
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pekerjaan| int | Nomer auto increment Id_pekerjaan|
-| Id_warga| int | foreignt key tabel warga |
-| pekerjaan| varchar | pekerjaan masyarakat  |
-| tgl_input | date | tanggal input pekerjaan |
-
-**Tabel Pendidikan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pendidikan| int | Nomer auto increment Id_pendidikan|
-| Id_warga| int | foreignt key tabel warga |
-| pendidikan| varchar | pendidikan masyarakat  |
-| tgl_masuk | date | tanggal masuk pendidikan |
-
-**Tabel ktp**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_ktp| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| status_ktp| varchar | Identifikasi memiliki atau belum memiliki ktp |
-| masa_berlaku | date | tanggal berlaku ktp |
-
-**Tabel kk**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kk| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| kepala_keluarga| varchar | nama kepala keluarga |
-| no_kk | varchar | nomor kk |
-
-**Tabel pindah**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pindah| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| tgl_pindah | date | tanggal akan pindah |
-| ket | varchar | alamat pindah |
-
-**Tabel datang**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_datang| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| tgl_datang | date | tanggal kedatangan |
-| ket | varchar | alamat sebelum datang |
-
-**Tabel pilih**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pilih| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| status_pilih | varchar | hak pilih |
-
-**Tabel kawin**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kawin| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| status_kawin | varchar | status warga |
-
-**Tabel Laporan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_laporan| int | Nomer auto increment Id_laporan|
-| Id_warga| int | foreignt key tabel warga |
-| laporan | varchar | berisi laporan kependudukan |
-
-**Tabel Agama**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_agama| int | Nomer auto increment Id_laporan|
-| Id_warga| int | foreignt key tabel warga |
-| agama| varchar | berisi agama penduduk |
+BAB 1 Pendahuluan
+1.1 Tujuan : Nisa Khotimah
+1.2 Lingkup : Nisa Khotimah
+1.3 Akronim, singkatan, definisi : Nisa Khotimah
+1.4 Referensi : Nisa Khotimah
+1.5 Overview : Nisa Khotimah
+BAB 2 Gambaran Umum
+2.1 Perspektif Produk : Siska Limarga
+2.1.1 Antarmuka Sistem : Siska Limarga
+2.1.2 Antarmuka pengguna : Siska Limarga & Afifah Aulia Amri
+2.1.3 Antarmuka perangkat keras : Siska Limarga
+2.1.4 Antarmuka perangkat lunak : Siska Limarga
+2.1.5 Antarmuka Komunikasi : Siska Limarga
+2.1.6 Batasan memori : Siska Limarga
+2.1.7 Operasi-operas : Siska Limarga
+2.1.8 Kebutuhan adaptasi : Siska Limarga 
+2.2 Spesifikasi Kebutuhan fungsional : Siska Limarga 
+2.2.1 Siswa & tamu melihat status : Afifah Aulia Amri
+2.2.2 Siswa & Tamu mencari buku : Afifah Aulia Amri
+2.2.3 Pustakawan login : Afifah Aulia Amri
+2.2.4 Pustakawan mengelola data buku : Afifah Aulia Amri
+2.2.5 Pustakawan mengelola data peminjaman buku : Afifah Aulia Amri
+2.2.6 Pustakawan mengelola data pengembalian buku : Afifah Aulia Amri
+2.3 Spesifikasi Kebutuhan non-fungsional : Siska Limarga
+2.4 Karakteristik pengguna : Siska Limarga
+2.5 Batasan-batasan : Siska Limarga
+2.6 Asumsi-asumsi : Siska Limarga
+2.7 Kebutuhan Penyeimbang : Siska Limarga
+BAB III Requirement specification
+3.1 Persyaratan Antarmuka Eksternal : Afifah Aulia Amri
+3.2 Functional Requirement : Afifah Aulia Amri
+3.3 Struktur Detail Kebutuhan Non-Fungsional : Siska Limarga
+FIGMA : Siska Limarga & Afifah Aulia Amri
+GitHub : Siska Limarga
