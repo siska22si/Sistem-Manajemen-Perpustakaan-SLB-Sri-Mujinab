@@ -53,33 +53,34 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada aplikasi ini. Menj
 **BAB II Gambaran umum**
 ----------
 Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari .dalam studi kasus Proyek II ini kami menganalisis kebutuhan suatu desa di daerah Indramayu tepatnya di desa Lohbener Kecamatan Lohbener .kasus yang kami peroleh pembuatan laporan kependudukan di desa Lohbener ini. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan pemerintah desa dengan menerapkan manajemen administrasi data kependudukan desa Lohbener. Sehingga memudahkan admin dalam menginputkan data-data kependudukan. Software yang kami buat ini berbasis website dimana website sebagai admin, sekdes dan kepala desa. Sistem yang kami buat di dalamnya terdapat angka kelahiran, angka kematian, pekerjaan, agama, laporan ( untuk admin/sekdes ), grafik dan laporan ( untuk kepala desa ). Berikut akan kami jelaskan  sistem software kami,  admin fungsi utama yaitu :
-   - Input Angka Kelahiran
-   - Input Angka Kematian
-   - Input Agama
-   - Input Pendidikan
-   - Input Pekerjaan
-   - Laporan
+   - Input Judul 
+   - Input ISBN
+   - Input Penerbit
+   - Input Tahun
+   - Input Jumlah 
+   - Input Kategori
+   - Input Tanggal Pinjam
+   - Input Tanggal Kembali
    
    Berikut ini fungsi user dalam bentuk grafik :
-   - View Angka Kelahiran
-   - View Angka Kematian
-   - View Agama
-   - View Pekerjaan
-   - View Pendidikan
-   - View Laporan
-
+   - View Judul
+   - View ISBN
+   - View Penerbit
+   - View Tahun
+   - View Jumlah 
+   - View Kategori
+   - View Tanggal Pinjam
+   - View Tanggal Kembali
 2.1   Perspektif produk
 ----------
-Manajemen Administrasi Data Kependudukan Desa Lohbener adalah sebuah sistem administrasi data yang di aplikasiskan pada website. Terdapat 3 jenis yaitu admin, sekdes dan kepala desa. Pengolahan data di kelola oleh admin dan sekdes pada website dan kepala desa hanya melihat grafik dan laporan pada website.
+Manajemen Perpustakaan SLB Sri Mujinab adalah sebuah sistem Perpustakaan yang diaplikasikan pada website. Terdapat 1 jenis admin, yaitu Pustakawan. Pengelolaan data dikelola oleh Pustakawan ada website dan Siswa & Tamu dapat mencari buku pada website.
 
-Pada sistem manajemen administrasi data kependudukan ini akan menampilkan grafik kependudukan yang sudah di inputkan oleh admin
-
+Pada sistem manajemen perpustakaan ini akan menampilkan buku yang sudah diinputkan oleh admin
 **2.1.1 Antarmuka sistem**
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png)
 
-Sistem aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener memiliki 3 user yaitu sekdes, admin dan kepala desa. Kepala desa mempunyai fungsi yaitu melakukan view grafik dan bisa view laporan. Admin bertugas untuk mengelola data, supaya data bisa di akses oleh kepala desa.
-
+Sistem Manajemen Perpustakaan SLB Sri Mujinab memiliki 2 user, yaitu Siswa atau Tamu dan Pustakawan. Pustakawan bertugas untuk mengelola data, agar bisa diakses oleh Siswa atau Tamu. Sedangkan, Siswa atau Tamu yang akan mengakses data di Sistem ini.
 **2.1.2 Antarmuka pengguna**
 
    - **Mockup Admin ( Website )**
@@ -98,7 +99,7 @@ Sistem aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener memiliki 
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20perangkat%20keras%202.png)
 
-Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Manajemen Administrasi Data Kependudukan Desa Lohbener antara lain :
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Manajemen Perpustakaan SLB Sri Mujinab antara lain :
 
 1. PC / Laptop
 Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
@@ -129,7 +130,6 @@ Tidak ada
 | Edit | Digunakan untuk mengubah data |
 | View | Digunakan untuk menampilkan data |
 | Simpan | Digunakan untuk menyimpan data |
-| Cetak | Digunakan untuk mencetak laporan |
 
 **2.1.8 Kebutuhan adaptasi**
 
@@ -139,124 +139,103 @@ Tidak ada
 ----------
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case1.png)
    
-**2.2.1 Kepala Desa Login**
+**2.2.1 Siswa & Tamu melihat status**
 
-Use Case: Login
+Use Case: Melihat Status
 
 Diagram : 
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login%20kepdes.png)
 
-Deskripsi Singkat
-Kepala desa melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses atau gagal kepala desa dapat meminta kepada admin desa untuk di dibuatkan akunnya.
-Deskripsi langkah-langkah
-1. Kepala desa melakukan login dengan username dan password
-2. Sistem melakukan validasi login
-3. Bila sukses sistem akan mengarahkan ke halaman beranda
-4. Bila gagal sistem akan menampilkan peringatan
+Deskripsi Singkat 
+Siswa & Tamu  dapat melihat buku yang tersedia pada aplikasi perpustakaan SLB Sri Mujinab. Deskripsi Langkah-langkah
 
-Xref: Bagian 3.2.1, Login Kepala Desa
-   
+1. Siswa & Tamu mencari judul buku yang diinginkan
+2. Sistem akan menampilkan hasil pencarian
+3. Siswa & tamu menekan buku yang dicari dan akan muncul status buku yang diinginkan tersedia atau tidak
 
-**2.2.2 Kepala desa melihat laporan kependudukan**
+Xref: Bagian 3.2.1 Melihat status
 
-Use Case: View laporan kependudukan
+**2.2.2 Siswa & Tamu mencari buku**
+
+Use Case: Pencarian Buku
 
 Diagram: 
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kepdes%20generate%20laporan.png)
 
-Deskripsi Singkat
-Kepala desa dapat melihat laporan kependudukan secara bulanan di desa Lohbener.
-Deskripsi Langkah-langkah
-1. Kepala desa mengklik navbar laporan
-2. Kepala desa memilih combobox tersebut dan klik tombol cetak laporan
-3. Sistem akan menampilkan hasil laporan.
+Deskripsi Singkat 
+Siswa & Tamu dapat melakukan pencarian buku pada halaman aplikasi tanpa melakukan login. Deskripsi Langkah-langkah
 
-Xref: Bagian 3.2.2, View laporan kependudukan
+1. Siswa & Tamu membuka halaman web
+2. Siswa & Tamu mengklik tombol search
+3. Siswa & Tamu Mengetikkan judul buku yang ingin dicari
+4. Sistem menampilkan buku yang dicari oleh Siswa & Tamu
 
-**2.2.3 Admin login**
+Xref: Bagian 3.2.2 Pencarian buku
 
-Use Case: Login
+**2.2.3 Pustakawan login**
+
+Use Case: Pustakawan Login
 
 Diagram :
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login.png)
 
-Deskripsi Singkat
-Admin melakukan login dengan memasukan username password.
-Deskripsi Langkah-langkah
-1. Admin melakukan login dengan username dan password
+Deskripsi Singkat 
+Pustakawan melakukan login dengan memasukkan username password. Deskripsi Langkah-langkah
+
+1. Pustakawan melakukan login dengan username dan password
 2. Sistem melakukan validasi login
-3. Bila sukses sistem akan mengarahkan ke halaman beranda
-4. Bila gagal sistem akan menampilkan peringatan
+3. Jika Username dan Password benar maka akan masuk ke sistem
 
-Xref: Bagian 3.2.3, Login admin
+Xref: Bagian 3.2.3, Pustakawan Login
       
-**2.2.4 Admin input data kependudukan**
+**2.2.4 Pustakawan mengelola data buku**
 
-Use Case: Input data kependudukan
+Use Case: Mengelola data buku
 
 Diagram:
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20kelola%20data2.png)
       
-Deskripsi Singkat
-Admin melakukan input data kependudukan dan sistem menyimpan data pada database.
-Deskripsi Langkah-langkah
-1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain.
-2. Admin mengklik tombol simpan.
-3. Sistem menyimpan data kependudukan.
-4. Bila data sudah ada sistem akan menampilkan peringatan
+Deskripsi Singkat 
+Pustakawan melakukan pengelolaan data buku dengan menginputkan data tahun, data kategori, data nomor buku, data judul, dan data penerbit. Deskripsi Langkah-langkah
 
-Xref: Bagian 3.2.4, Input data kependudukan
+1. Pustakawan melakukan input data, tahun, kategori, nomor buku, judul, dan penerbit.
+2. Pustakawan mengklik tombol simpan
+3. Sistem menyimpan data buku
 
-**2.2.5 Admin melihat data kependudukan**
+Xref: Bagian 3.2.4, Mengelola data buku
 
-Use Case: View data kependudukan
+**2.2.5 Pustakawan mengelola data peminjaman buku**
+
+Use Case: Mengelola data peminjaman buku
 
 Diagram:
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20data%20kependudukan.png)
 
-Deskripsi Singkat
-Admin dapat melihat data kependudukan setelah di inputkan.
-Deskripsi Langkah-langkah
-1. Sistem akan menampilkan data kependudukan desa Lohbener.
-2. Admin melihat data dan dapat mengedit atau menghapusnya.
-3. Sistem menampilkan edit data kependudukan
-4. Admin  mengedit data kependudukan yang baru atau yang sudah ada
-5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan
+Deskripsi Singkat 
+Mengelola data peminjaman buku dengan menginputkan data peminjaman buku dan sistem menyimpan data pada database. Deskripsi Langkah-langkah
 
-Xref: Bagian 3.2.5, View data kependudukan
+1. Pustakawan melakukan input data buku pinjaman, tanggal peminjaman,nama peminjam, dan kelas peminjam
+2. Pustakawan mengklik tombol simpan
+3. Sistem menyimpan data peminjaman buku
+
+Xref: Bagian 3.2.5, Mengelola data peminjaman buku
    
-**2.2.6 Generate Laporan**
+**2.2.6 Pustakawan mengelola data pengembalian buku**
 
-Use Case: Laporan
+Use Case: Mengelola data pengembalian buku
 
 Diagram:
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20generate%20laporan.png)
 
-Deskripsi Singkat
-Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
-Deskripsi Langkah-langkah
-1. Sistem menampilkan laporan kependudukan
-2. Admin memilih combobox tersebut dan klik tombol cetak
-3. Sistem akan menampilkan hasil laporan.
-4. Admin mencetak laporan 
+Deskripsi Singkat 
+Pustakawan mengelola data pengembalian buku dengan melakukan input data tanggal pengembalian dan menyimpan pada database. Deskripsi Langkah-langkah
 
-Xref: Bagian 3.2.6, Cetak Laporan
+1. Admin akan mencari data peminjaman buku yang ingin dikembalikan
+2. Admin akan menekan detail peminjaman
+3. Admin akan menekan button “selesai”
+4. Sistem akan memindahkan ke bagian history (Sudah Dipinjam) dan auto fill tanggal
 
-**2.2.7 Admin mengelola user**
-
-Use Case: Mengelola user
-
-Diagram:
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kelola%20user.png)
-
-Deskripsi Singkat
-Sistem akan menampilkan form user dan admin dapat menambah user sesuai kebutuhan.
-Deskripsi Langkah-langkah
-1. Admin mengklik manajemen user, lalu memilih nik dan hak akses user kemudian klik tambah
-2. Sistem akan menyimpan data user ke database dan menampilkan data user yang dipilih.
-3. Admin bisa menghapus hak akses user.
-
-Xref: Bagian 3.2.7, Mengelola user
+Xref: Bagian 3.2.6, Mengelola data pengembalian buku
 
 
 
@@ -275,7 +254,7 @@ Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinte
 
 2.5   Batasan-batasan
 ----------
-- Perangkat lunak web hanya dijalankan di windows (7,8,10). 
+- Perangkat lunak web hanya dijalankan di windows (7,8,10,11). 
 - Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
 
 2.6   Asumsi-asumsi
@@ -291,60 +270,59 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan oleh admmin, login melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username sekdes dan kepala desa lohbener. Setelah login berhasil kepala desa dapat melihat grafik kependudukan dan laporan desa Lohbener di aplikasi tersebut.
-      
+Cara mengakses web ini yaitu dengan siswa & tamu  membuka website Perpustakaan SLB Sri Mujinab, kemudian dapat secara langsung mencari buku yang diinginkan, dan dapat melakukan peminjaman buku dan pengembalian buku kepada pustakawan, sedangkan pustakawan melakukan login terlebih dahulu dengan mencantumkan username dan password kemudian sistem mencocokkan username  dan password pustakawan. Setelah login berhasil pustakawan dapat mengelola data buku,data peminjaman buku, dan data pengembalian buku di website tersebut.      
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
       
-**3.2.1 Kepala desa Login**
+**3.2.1 Melihat status**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Login |
-| Xref | Bagian 2.2.1, Login Kepala desa |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman login |
-| Basic Path | 1. Kepala desa mengisi form login dengan username dan password <br> 2.Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Nama Fungsi | Melihat status |
+| Xref | Bagian 2.2.1, Melihat Status |
+| Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
+| Precondition | Halaman detail buku |
+| Basic Path | 1. Siswa & tamu mencari judul yang diinginkan <br> 2. Siswa & tamu menekan buku yang dipilih <br> 3. Sistem akan menampilkan detail buku beserta status ketersediaan buku |
 | Alternative | Tidak ada |
-| Post Condition | Kepala desa dapat login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbene |
-| Exception Push | Username dan password salah |
+| Post Condition | Siswa & Tamu dapat melihat status ketersediaan buku pada website Perpustakaan SLB Sri Mujinab |
+| Exception Push | Tidak ada koneksi |
       
-**3.2.2 Kepala desa melihat laporan kependudukan**
+**3.2.2 Siswa & tamu mencari buku**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View laporan kependudukan |
-| Xref | Bagian 2.2.2, View laporan kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Membuka halaman grafik kependudukan |
-| Basic Path | 1. Kepala desa mengklik navbar laporan <br> 2. Sitem akan menampilkan combobox pilihan bulan dan tahun <br>3. Kepala desa memilih combobox tersebut dan klik tombol lihat <br> 4. Sistem akan menampilkan hasil laporan. |
+| Nama Fungsi | Pencarian buku |
+| Xref | Bagian 2.2.2, Pencarian buku |
+| Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
+| Precondition | Halaman awal |
+| Basic Path | 1. Mengisi judul yang ingin dicari di kolom pencarian <br> 2. Sistem akan menampilkan hasuk pencarian |
 | Alternative | Tidak ada |
 | Post Condition | Kepala desa melihat laporan kependudukan |
-| Exception Push | Tidak ada koneksi |
+| Exception Push | Tidak ada judul yang terkait |
    
-**3.2.3 Admin login**
+**3.2.3 Pustakwan login**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Login |
-| Xref | Bagian 2.2.3, Login admin |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman login admin |
+| Nama Fungsi | Pustakawan login |
+| Xref | Bagian 2.2.3, Pustakawan login |
+| Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
+| Precondition | Halaman login pustakawan |
 | Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Admin berhasil login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Post Condition | Admin berhasil login dan mengakses website manajemen perpustakaan SLB Sri Mujinab |
 | Exception Push | Username dan password salah |
    
-**3.2.4 Admin input data kependudukan**
+**3.2.4 Pustakawan mmengelola data buku**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Input data kependudukan |
-| Xref | Bagian 2.2.4, Input data kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman utama admin |
-| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
+| Nama Fungsi | Mengelola data buku |
+| Xref | Bagian 2.2.4, Mengelola data buku |
+| Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
+| Precondition | Halaman data buku |
+| Basic Path | 1. Admin dapat menambah dan <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
 | Post Condition | Halaman form input data kependudukan |
 | Exception Push | Tidak ada koneksi |
