@@ -74,7 +74,6 @@ Sistem Manajemen Perpustakaan SLB Sri Mujinab memiliki 2 user, yaitu Siswa atau 
 ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/5bb4ecc6232f08978c0335aae76b28f370b12bed/Img/interface%20hardware.drawio.png)
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan Perangkat Lunak Manajemen Perpustakaan SLB Sri Mujinab antara lain :
-
 1. PC / Laptop
 Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
 
