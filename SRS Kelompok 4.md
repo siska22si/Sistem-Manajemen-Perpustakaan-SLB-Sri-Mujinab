@@ -336,7 +336,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/249fd09599a007d24c418f87fef47a557694fb44/Img/ERD%20FRAMEWORK.drawio.png)
+![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/b4d438a5488f4d1e6867567671160ac6688cc988/Img/FRAMEWORK-Page-2.drawio%20(1).png)
 
 **Tabel Pustakawan**
 
@@ -368,6 +368,21 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | nama_peminjam | varchar | Nama peminjam buku|
 | tanggal_pinjam | date | Tanggal buku dipinjam |
 | tanggal_kembali | date | Tanggal buku dikembalikan |
+
+**Tabel Pengembalian**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| id_kembali | int | Nomor auto increment id_pengembalian |
+| id_pinjam | int | Untuk mengambil data peminjaman dari tabel peminjaman |
+| tanggal_pengembalian | date | Tanggal buku dikembalikan |
+
+**Tabel Kategori**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| id_kategori | int | Nomor auto increment id_kategori |
+| nama_kategori | varchar | Nama Kategori Buku |
 
 **Pembagian Jobdesc**
 ----------
