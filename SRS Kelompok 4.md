@@ -336,7 +336,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/bff47ab0fe615ebe7b12a0620440b0689b6e7021/Img/FRAMEWORK-Page-2.drawio%20(2).png)
+![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/64c123cd274ac48a9f8764a0ec8d49194feba9a4/Img/FRAMEWORK-Page-2.drawio%20(3).png)
 
 **Tabel User**
 
