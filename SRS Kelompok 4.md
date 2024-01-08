@@ -110,7 +110,7 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/Lengkap.png)
+![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/6fbe8cf2d3a2dcfef30faae1345b9b60e3cde405/Img/UseCaseDiagram1.png)
    
 **2.2.1 Siswa & Tamu melihat status**
 
