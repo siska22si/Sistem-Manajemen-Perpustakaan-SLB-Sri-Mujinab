@@ -61,13 +61,13 @@ Sistem Manajemen Perpustakaan SLB Sri Mujinab memiliki 2 user, yaitu Siswa atau 
 
 |  |  |
 |--|--|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/86bc2686530b154be24145f1b34402e5fb12a11b/Img/1%20Home%20User.jpg) Pada halaman ini menampilkan Rekomendasi buku dan Buku popular, kemudian juga terdapat tempat pencarian buku| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/86bc2686530b154be24145f1b34402e5fb12a11b/Img/2%20Hasil%20Pencarian.jpg) Pada halaman ini adalah hasil pencarian jika anda melakukan pencarian buku.|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/3%20Detail%20Buku%20User.jpg) Halaman ini menampilkan detail dari buku yang anda pilih.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/4%20Login%20admin.jpg) Halaman ini meminta admin untuk memasukkan username dan passwordnya untuk masuk ke halaman utama admin.|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/5%20Home%20admin.jpg) Pada halaman utama admin, terdapat Total Buku, Telah Dipinjam, Sedang Dipinjam, dan Tersedia.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/6%20Data%20Buku.jpg) Pada Halaman Total buku, terdapat seluruh judul buku beserta detailnya.|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/7%20Edit%20Detail%20Buku.jpg) Pada halaman ini, admin dapat memodifikasi detail buku yang ingin diubah.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/8%20Tambah%20Buku.jpg) Pada halaman ini, admin dapat menambahkan judul buku.|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/9%20Telah%20dipinjam.jpg) Pada halaman ini, menampilkan seluruh siswa yang sedang meminjam buku.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/10%20Detail%20Data%20Peminjaman.jpg) Pada halaman ini, admin dapat memodifikasi dan juga mengubah status peminjaman buku.|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/11%20Peminjaman%20Buku.jpg) Pada halaman ini, Terdapat daftar buku yang dipinjam dan tempat mendaftarkan siswa yang ingin meminjam buku.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/12%20Pinjam%20Buku.jpg) Pada halaman ini, admin memasukkan data peminjam.|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/13%20Telah%20Dipinjam.jpg) Halaman ini menampilkan riwayat peminjaman buku.|
+| ![enter image description here]() Pada halaman ini menampilkan Rekomendasi buku dan Buku popular, kemudian juga terdapat tempat pencarian buku| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/86bc2686530b154be24145f1b34402e5fb12a11b/Img/2%20Hasil%20Pencarian.jpg) Pada halaman ini adalah hasil pencarian jika anda melakukan pencarian buku.|
+| ![enter image description here]() Halaman ini menampilkan detail dari buku yang anda pilih.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/4%20Login%20admin.jpg) Halaman ini meminta admin untuk memasukkan username dan passwordnya untuk masuk ke halaman utama admin.|
+| ![enter image description here]() Pada halaman utama admin, terdapat Total Buku, Telah Dipinjam, Sedang Dipinjam, dan Tersedia.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/6%20Data%20Buku.jpg) Pada Halaman Total buku, terdapat seluruh judul buku beserta detailnya.|
+| ![enter image description here]() Pada halaman ini, admin dapat memodifikasi detail buku yang ingin diubah.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/8%20Tambah%20Buku.jpg) Pada halaman ini, admin dapat menambahkan judul buku.|
+| ![enter image description here]() Pada halaman ini, menampilkan seluruh siswa yang sedang meminjam buku.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/10%20Detail%20Data%20Peminjaman.jpg) Pada halaman ini, admin dapat memodifikasi dan juga mengubah status peminjaman buku.|
+| ![enter image description here]() Pada halaman ini, Terdapat daftar buku yang dipinjam dan tempat mendaftarkan siswa yang ingin meminjam buku.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/12%20Pinjam%20Buku.jpg) Pada halaman ini, admin memasukkan data peminjam.|
+| ![enter image description here]() Halaman ini menampilkan riwayat peminjaman buku.|
  
 **2.1.3 Antarmuka perangkat keras**
 
@@ -395,9 +395,9 @@ BAB 1 Pendahuluan <br>
 1.4 Referensi : Nisa Khotimah <br>
 1.5 Overview : Nisa Khotimah <br>
 BAB 2 Gambaran Umum <br>
-2.1 Perspektif Produk : Siska Limarga <br>
+2.1 Perspektif Produk : Nisa Khotimah <br>
 2.1.1 Antarmuka Sistem : Siska Limarga <br>
-2.1.2 Antarmuka pengguna : Siska Limarga & Afifah Aulia Amri <br>
+2.1.2 Antarmuka pengguna : M. Defri Lubis <br>
 2.1.3 Antarmuka perangkat keras : Siska Limarga <br>
 2.1.4 Antarmuka perangkat lunak : Siska Limarga <br>
 2.1.5 Antarmuka Komunikasi : Siska Limarga <br>
@@ -410,7 +410,7 @@ BAB 2 Gambaran Umum <br>
 2.2.3 admin login : Afifah Aulia Amri <br>
 2.2.4 admin mengelola data buku : Afifah Aulia Amri <br>
 2.2.5 admin mengelola data peminjaman buku : Afifah Aulia Amri <br>
-2.2.6 admin mengelola data pengembalian buku : Afifah Aulia Amri <br>
+2.2.6 admin mengelola data rak buku : Nisa Khotimah <br>
 2.3 Spesifikasi Kebutuhan non-fungsional : Siska Limarga <br>
 2.4 Karakteristik pengguna : Siska Limarga <br>
 2.5 Batasan-batasan : Siska Limarga <br>
@@ -420,5 +420,4 @@ BAB III Requirement specification <br>
 3.1 Persyaratan Antarmuka Eksternal : Afifah Aulia Amri <br>
 3.2 Functional Requirement : Afifah Aulia Amri <br>
 3.3 Struktur Detail Kebutuhan Non-Fungsional : Siska Limarga <br>
-FIGMA : Siska Limarga & Afifah Aulia Amri <br>
-GitHub : Siska Limarga
+FIGMA : M. Defri Lubis <br>
