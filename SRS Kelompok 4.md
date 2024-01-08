@@ -169,7 +169,7 @@ Xref: Bagian 3.2.3, admin Login
 Use Case: Mengelola data buku
 
 Diagram:
-![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/Mengelola%20Data%20Buku.png)
+![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/f30595ab580962fe3e7304830b85764b343f515a/Img/Mengelola%20Data%20Buku.png)
       
 Deskripsi Singkat
 
