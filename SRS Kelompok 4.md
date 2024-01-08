@@ -389,9 +389,10 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 ----------
 
 WEBSITE : Siska Limarga <br>
-FIGMA : M. Defri Lubis <br>
 Power Point : Nisa Khotimah & Afifah Aulia Amri <br>
 Table database : Siska Limarga, Nisa Khotimah & Afifah Aulia Amri <br>
+Figma : M. Defri Lubis <br>
+
 BAB 1 Pendahuluan <br>
 1.1 Tujuan : Nisa Khotimah <br>
 1.2 Lingkup : Nisa Khotimah <br>
