@@ -17,7 +17,7 @@ Dokumen Software Specification (SRS) ini  merupakan sebuah  dokumen spesifikasi 
 
 1.2   Lingkup
 ----------
-Sistem Manajemen Perpustakaan ini merupakan aplikasi yang kami bangun untuk mempermudah pustakawan, siswa dan tamu dalam melihat perkembangan data perpustakaan yaitu perkembangan judul buku, penerbit, tahun, jumlah buku, dan perkembangan kategori buku.
+Sistem Manajemen Perpustakaan ini merupakan aplikasi yang kami bangun untuk mempermudah admin, siswa dan tamu dalam melihat perkembangan data perpustakaan yaitu perkembangan judul buku, penerbit, tahun, jumlah buku, dan perkembangan kategori buku.
 
 1.3    Akronim, singkatan, definisi
 ----------
@@ -41,11 +41,11 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada aplikasi ini. Menj
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari-hari. Dalam studi kasus proyek ini kami menganalisis suatu kebutuhan SLB di Pekanbaru tepatnya di Jl. Dr. Sutomo, Kecamatan Sail. Kasus yang kami peroleh adalah Pembuatan Sistem Manajemen Perpustakaan SLB Sri Mujinab. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan SLB dengan menerapkan manajemen perpustakaan SLB Sri Mujinab. Sehingga memudahkan pustakawan dalam mengelola data buku. Software yang kami buat ini berbasis website dimana website sebagai admin, siswa atau tamu. Sistem yang kami buat di dalamnya terdapat:
+Pada zaman era globalisasi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari-hari. Dalam studi kasus proyek ini kami menganalisis suatu kebutuhan SLB di Pekanbaru tepatnya di Jl. Dr. Sutomo, Kecamatan Sail. Kasus yang kami peroleh adalah Pembuatan Sistem Manajemen Perpustakaan SLB Sri Mujinab. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan SLB dengan menerapkan manajemen perpustakaan SLB Sri Mujinab. Sehingga memudahkan admin dalam mengelola data buku. Software yang kami buat ini berbasis website dimana website sebagai admin, siswa atau tamu. Sistem yang kami buat di dalamnya terdapat:
 
 2.1   Perspektif produk
 ----------
-Manajemen Perpustakaan SLB Sri Mujinab adalah sebuah sistem Perpustakaan yang diaplikasikan pada website. Terdapat 1 jenis admin, yaitu Pustakawan. Pengelolaan data dikelola oleh Pustakawan ada website dan Siswa & Tamu dapat mencari buku pada website.
+Manajemen Perpustakaan SLB Sri Mujinab adalah sebuah sistem Perpustakaan yang diaplikasikan pada website. Terdapat 1 jenis admin, yaitu admin. Pengelolaan data dikelola oleh admin ada website dan Siswa & Tamu dapat mencari buku pada website.
 
 Pada sistem manajemen perpustakaan ini akan menampilkan buku yang sudah diinputkan oleh admin
 
@@ -53,7 +53,7 @@ Pada sistem manajemen perpustakaan ini akan menampilkan buku yang sudah diinputk
 
 ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/use%20case%20Sistem%20Manajemen%20Perpustakaan.png)
 
-Sistem Manajemen Perpustakaan SLB Sri Mujinab memiliki 2 user, yaitu Siswa atau Tamu dan Pustakawan. Pustakawan bertugas untuk mengelola data, agar bisa diakses oleh Siswa atau Tamu. Sedangkan, Siswa atau Tamu yang akan mengakses data di Sistem ini.
+Sistem Manajemen Perpustakaan SLB Sri Mujinab memiliki 2 user, yaitu Siswa atau Tamu dan admin. admin bertugas untuk mengelola data, agar bisa diakses oleh Siswa atau Tamu. Sedangkan, Siswa atau Tamu yang akan mengakses data di Sistem ini.
 
 **2.1.2 Antarmuka pengguna**
 
@@ -62,11 +62,11 @@ Sistem Manajemen Perpustakaan SLB Sri Mujinab memiliki 2 user, yaitu Siswa atau 
 |  |  |
 |--|--|
 | ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/86bc2686530b154be24145f1b34402e5fb12a11b/Img/1%20Home%20User.jpg) Pada halaman ini menampilkan Rekomendasi buku dan Buku popular, kemudian juga terdapat tempat pencarian buku| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/86bc2686530b154be24145f1b34402e5fb12a11b/Img/2%20Hasil%20Pencarian.jpg) Pada halaman ini adalah hasil pencarian jika anda melakukan pencarian buku.|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/3%20Detail%20Buku%20User.jpg) Halaman ini menampilkan detail dari buku yang anda pilih.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/4%20Login%20Pustakawan.jpg) Halaman ini meminta pustakawan untuk memasukkan username dan passwordnya untuk masuk ke halaman utama pustakawan.|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/5%20Home%20Pustakawan.jpg) Pada halaman utama pustakawan, terdapat Total Buku, Telah Dipinjam, Sedang Dipinjam, dan Tersedia.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/6%20Data%20Buku.jpg) Pada Halaman Total buku, terdapat seluruh judul buku beserta detailnya.|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/7%20Edit%20Detail%20Buku.jpg) Pada halaman ini, pustakawan dapat memodifikasi detail buku yang ingin diubah.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/8%20Tambah%20Buku.jpg) Pada halaman ini, pustakawan dapat menambahkan judul buku.|
+| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/3%20Detail%20Buku%20User.jpg) Halaman ini menampilkan detail dari buku yang anda pilih.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/4%20Login%20admin.jpg) Halaman ini meminta admin untuk memasukkan username dan passwordnya untuk masuk ke halaman utama admin.|
+| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/5%20Home%20admin.jpg) Pada halaman utama admin, terdapat Total Buku, Telah Dipinjam, Sedang Dipinjam, dan Tersedia.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/6%20Data%20Buku.jpg) Pada Halaman Total buku, terdapat seluruh judul buku beserta detailnya.|
+| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/7%20Edit%20Detail%20Buku.jpg) Pada halaman ini, admin dapat memodifikasi detail buku yang ingin diubah.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/8%20Tambah%20Buku.jpg) Pada halaman ini, admin dapat menambahkan judul buku.|
 | ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/9%20Telah%20dipinjam.jpg) Pada halaman ini, menampilkan seluruh siswa yang sedang meminjam buku.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/10%20Detail%20Data%20Peminjaman.jpg) Pada halaman ini, admin dapat memodifikasi dan juga mengubah status peminjaman buku.|
-| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/11%20Peminjaman%20Buku.jpg) Pada halaman ini, Terdapat daftar buku yang dipinjam dan tempat mendaftarkan siswa yang ingin meminjam buku.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/12%20Pinjam%20Buku.jpg) Pada halaman ini, pustakawan memasukkan data peminjam.|
+| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/11%20Peminjaman%20Buku.jpg) Pada halaman ini, Terdapat daftar buku yang dipinjam dan tempat mendaftarkan siswa yang ingin meminjam buku.| ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/12%20Pinjam%20Buku.jpg) Pada halaman ini, admin memasukkan data peminjam.|
 | ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/703e15dbd463b5369e735c107cfd05c9513f343e/Img/13%20Telah%20Dipinjam.jpg) Halaman ini menampilkan riwayat peminjaman buku.|
  
 **2.1.3 Antarmuka perangkat keras**
@@ -147,24 +147,24 @@ Siswa & Tamu dapat melakukan pencarian buku pada halaman aplikasi tanpa melakuka
 
 Xref: Bagian 3.2.2 Pencarian buku
 
-**2.2.3 Pustakawan login**
+**2.2.3 admin login**
 
-Use Case: Pustakawan Login
+Use Case: admin Login
 
 Diagram :
 ![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/Login.png)
 
 Deskripsi Singkat
 
-Pustakawan melakukan login dengan memasukkan username password. Deskripsi Langkah-langkah
+admin melakukan login dengan memasukkan username password. Deskripsi Langkah-langkah
 
-1. Pustakawan melakukan login dengan username dan password
+1. admin melakukan login dengan username dan password
 2. Sistem melakukan validasi login
 3. Jika Username dan Password benar maka akan masuk ke sistem
 
-Xref: Bagian 3.2.3, Pustakawan Login
+Xref: Bagian 3.2.3, admin Login
       
-**2.2.4 Pustakawan mengelola data buku**
+**2.2.4 admin mengelola data buku**
 
 Use Case: Mengelola data buku
 
@@ -173,15 +173,15 @@ Diagram:
       
 Deskripsi Singkat
 
-Pustakawan melakukan pengelolaan data buku dengan menginputkan data tahun, data kategori, data nomor buku, data judul, dan data penerbit. Deskripsi Langkah-langkah
+admin melakukan pengelolaan data buku dengan menginputkan data tahun, data kategori, data nomor buku, data judul, dan data penerbit. Deskripsi Langkah-langkah
 
-1. Pustakawan melakukan input data, tahun, kategori, nomor buku, judul, dan penerbit.
-2. Pustakawan mengklik tombol simpan
+1. admin melakukan input data, tahun, kategori, nomor buku, judul, dan penerbit.
+2. admin mengklik tombol simpan
 3. Sistem menyimpan data buku
 
 Xref: Bagian 3.2.4, Mengelola data buku
 
-**2.2.5 Pustakawan mengelola data peminjaman buku**
+**2.2.5 admin mengelola data peminjaman buku**
 
 Use Case: Mengelola data peminjaman buku
 
@@ -192,13 +192,13 @@ Deskripsi Singkat
 
 Mengelola data peminjaman buku dengan menginputkan data peminjaman buku dan sistem menyimpan data pada database. Deskripsi Langkah-langkah
 
-1. Pustakawan melakukan input data buku pinjaman, tanggal peminjaman,nama peminjam, dan kelas peminjam
-2. Pustakawan mengklik tombol simpan
+1. admin melakukan input data buku pinjaman, tanggal peminjaman,nama peminjam, dan kelas peminjam
+2. admin mengklik tombol simpan
 3. Sistem menyimpan data peminjaman buku
 
 Xref: Bagian 3.2.5, Mengelola data peminjaman buku
    
-**2.2.6 Pustakawan mengelola data pengembalian buku**
+**2.2.6 admin mengelola data pengembalian buku**
 
 Use Case: Mengelola data pengembalian buku
 
@@ -207,7 +207,7 @@ Diagram:
 
 Deskripsi Singkat
 
-Pustakawan mengelola data pengembalian buku dengan melakukan input data tanggal pengembalian dan menyimpan pada database. Deskripsi Langkah-langkah
+admin mengelola data pengembalian buku dengan melakukan input data tanggal pengembalian dan menyimpan pada database. Deskripsi Langkah-langkah
 
 1. Admin akan mencari data peminjaman buku yang ingin dikembalikan
 2. Admin akan menekan detail peminjaman
@@ -223,7 +223,7 @@ Xref: Bagian 3.2.6, Mengelola data pengembalian buku
    | No | Deskripsi |
    | ------ | ------ |
    | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
-   | 2 | Perangkat Lunak dapat dipakai di semua platform OS (pustakawan, siswa dan tamu) |
+   | 2 | Perangkat Lunak dapat dipakai di semua platform OS (admin, siswa dan tamu) |
  
 2.4   Karakteristik pengguna
 ----------
@@ -247,7 +247,7 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Cara mengakses web ini yaitu dengan siswa & tamu  membuka website Perpustakaan SLB Sri Mujinab, kemudian dapat secara langsung mencari buku yang diinginkan, dan dapat melakukan peminjaman buku dan pengembalian buku kepada pustakawan, sedangkan pustakawan melakukan login terlebih dahulu dengan mencantumkan username dan password kemudian sistem mencocokkan username  dan password pustakawan. Setelah login berhasil pustakawan dapat mengelola data buku,data peminjaman buku, dan data pengembalian buku di website tersebut.
+Cara mengakses web ini yaitu dengan siswa & tamu  membuka website Perpustakaan SLB Sri Mujinab, kemudian dapat secara langsung mencari buku yang diinginkan, dan dapat melakukan peminjaman buku dan pengembalian buku kepada admin, sedangkan admin melakukan login terlebih dahulu dengan mencantumkan username dan password kemudian sistem mencocokkan username  dan password admin. Setelah login berhasil admin dapat mengelola data buku,data peminjaman buku, dan data pengembalian buku di website tersebut.
     
 3.2 Functional Requirement
 ----------
@@ -279,20 +279,20 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Siswa & Tamu menemukan buku yang diinginkan pada aplikasi Perpustakaan SLB Sri Mujinab |
 | Exception Push | Salah mengetikkan judul buku |
    
-**3.2.3 Pustakawan melakukan login**
+**3.2.3 admin melakukan login**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Pustakawan login |
-| Xref | Bagian 2.2.3, Pustakawan login |
+| Nama Fungsi | admin login |
+| Xref | Bagian 2.2.3, admin login |
 | Trigger | Membuka halaman web Perpustakaan Sri Mujinab |
-| Precondition | Halaman login pustakawan |
-| Basic Path | 1.Pustakawan melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. sistem akan mengarahkan halaman beranda perpustakawan |
+| Precondition | Halaman login admin |
+| Basic Path | 1.admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. sistem akan mengarahkan halaman beranda peradmin |
 | Alternative | Tidak ada |
-| Post Condition | Pustakawan dapat login dan dapat mengelola Aplikasi SLB Sri Mujinab |
+| Post Condition | admin dapat login dan dapat mengelola Aplikasi SLB Sri Mujinab |
 | Exception Push | Username dan password salah |
    
-**3.2.4 Pustakawan mmengelola data buku**
+**3.2.4 admin mmengelola data buku**
 
 |  |  |
 |--|--|
@@ -300,12 +300,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.4, Mengelola data buku |
 | Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
 | Precondition | Halaman data buku |
-| Basic Path | - Tambah buku: <br> 1. Pustakawan membuka halaman data buku <br> 2. Pustakawan menekan ikon tambah <br> 3.Sistem akan menampilkan form penambahan <br> 4.Pustakawan mengisi form dan menekan button “simpan” untuk menyimpan <br> <br> - Hapus Buku: <br> 1. Pustakawan membuka halaman data buku <br> 2. Pustakawan memilih buku yang ingin dihapus dan menekan ikon detail <br> 3. Sistem akan memunculkan detail buku <br> 4.Pustakawan menekan tombol “hapus” <br><br> - Edit Buku: <br> 1. Pustakawan membuka halaman data buku <br> 2. Pustakawan memilih buku yang ingin diedit dan menekan ikon detail <br> 3. Pustakawan dapat mengedit data buku <br> 4. Pustakawan menekan button “simpan: untuk menyimpan|
+| Basic Path | - Tambah buku: <br> 1. admin membuka halaman data buku <br> 2. admin menekan ikon tambah <br> 3.Sistem akan menampilkan form penambahan <br> 4.admin mengisi form dan menekan button “simpan” untuk menyimpan <br> <br> - Hapus Buku: <br> 1. admin membuka halaman data buku <br> 2. admin memilih buku yang ingin dihapus dan menekan ikon detail <br> 3. Sistem akan memunculkan detail buku <br> 4.admin menekan tombol “hapus” <br><br> - Edit Buku: <br> 1. admin membuka halaman data buku <br> 2. admin memilih buku yang ingin diedit dan menekan ikon detail <br> 3. admin dapat mengedit data buku <br> 4. admin menekan button “simpan: untuk menyimpan|
 | Alternative | Tidak ada |
 | Post Condition | Halaman data buku |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.5 Pustakawan mengelola data peminjaman buku**
+**3.2.5 admin mengelola data peminjaman buku**
 
 |  |  |
 |--|--|
@@ -313,22 +313,22 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.5, Mengelola data peminjaman buku |
 | Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
 | Precondition | Halaman peminjaman buku |
-| Basic Path | 1. Pustakawan menekan menu “peminjaman buku” <br> 2. Sistem akan menampilkan data buku yang sedang dipinjam <br> 3. Pustakawan menekan ikon tambah <br> 4. Pustakawan melakukan input data buku pinjaman, tanggal peminjaman,nama peminjam, dan jumlah buku yang dipinjam <br> 5. Pustakawan menekan button “simpan” untuk menyimpan <br> 6. Sistem menyimpan data peminjaman buku|
+| Basic Path | 1. admin menekan menu “peminjaman buku” <br> 2. Sistem akan menampilkan data buku yang sedang dipinjam <br> 3. admin menekan ikon tambah <br> 4. admin melakukan input data buku pinjaman, tanggal peminjaman,nama peminjam, dan jumlah buku yang dipinjam <br> 5. admin menekan button “simpan” untuk menyimpan <br> 6. Sistem menyimpan data peminjaman buku|
 | Alternative | Tidak ada |
 | Post Condition | Halaman data peminjaman buku |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.6 Pustakawan mengelola data pengembalian buku**
+**3.2.6 Admin mengelola data Rak buku**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Mengelola data pengembalian buku |
-| Xref | Bagian 2.2.6, Mengelola data pengembalian buku |
+| Nama Fungsi | Mengelola data Rak buku |
+| Xref | Bagian 2.2.6, Mengelola data Rak buku |
 | Trigger | Membuka website Manajemen Perpustakaan SLB Sri Mujinab |
 | Precondition | Halaman Peminjaman buku |
-| Basic Path | 1. Pustakawan menekan menu “peminjaman buku” <br> 2.  Sistem akan menampilkan data peminjaman buku <br> 3.  Pustakawan mencari data peminjam yang ingin mengembalikan buku <br> 4. Pustakawan menekan ikon “detail’ <br> 5. Sistem akan menampilkan detail peminjaman <br> 6. Pustakawan menekan button “selesai” |
+| Basic Path | 1. Admin menekan menu “Rak buku” <br> 2.  Sistem akan menampilkan data ke rak buku <br> 3.  Admin mencari judul buku yang dicari <br> 4. Admin menekan ikon “detail’ <br> 5. Sistem akan menampilkan detail rak buku <br> 6. Admin menekan button “selesai” |
 | Alternative | Tidak ada |
-| Post Condition | Halaman data peminjaman buku |
+| Post Condition | Halaman data Rak buku |
 | Exception Push | Tidak ada koneksi |
 
 3.3 Struktur Detail Kebutuhan Non-Fungsional
@@ -342,7 +342,7 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id | int | Nomor auto increment id_pustakawan|
+| Id | int | Nomor auto increment id_admin|
 | Username | varchar | berisikan username untuk akses admin |
 | Password | varchar | berisikan password untuk akses admin |
 
@@ -407,10 +407,10 @@ BAB 2 Gambaran Umum <br>
 2.2 Spesifikasi Kebutuhan fungsional : Siska Limarga <br>
 2.2.1 Siswa & tamu melihat status : Afifah Aulia Amri <br>
 2.2.2 Siswa & Tamu mencari buku : Afifah Aulia Amri <br>
-2.2.3 Pustakawan login : Afifah Aulia Amri <br>
-2.2.4 Pustakawan mengelola data buku : Afifah Aulia Amri <br>
-2.2.5 Pustakawan mengelola data peminjaman buku : Afifah Aulia Amri <br>
-2.2.6 Pustakawan mengelola data pengembalian buku : Afifah Aulia Amri <br>
+2.2.3 admin login : Afifah Aulia Amri <br>
+2.2.4 admin mengelola data buku : Afifah Aulia Amri <br>
+2.2.5 admin mengelola data peminjaman buku : Afifah Aulia Amri <br>
+2.2.6 admin mengelola data pengembalian buku : Afifah Aulia Amri <br>
 2.3 Spesifikasi Kebutuhan non-fungsional : Siska Limarga <br>
 2.4 Karakteristik pengguna : Siska Limarga <br>
 2.5 Batasan-batasan : Siska Limarga <br>
