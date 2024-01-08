@@ -186,7 +186,7 @@ Xref: Bagian 3.2.4, Mengelola data buku
 Use Case: Mengelola data peminjaman buku
 
 Diagram:
-![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/Mengelola%20data%20peminjaman%20buku.png)
+![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/e84921b5ed25d6f22829aed7e4605347b3606df0/Img/Mengelola%20data%20peminjaman%20buku.png)
 
 Deskripsi Singkat
 
@@ -198,12 +198,12 @@ Mengelola data peminjaman buku dengan menginputkan data peminjaman buku dan sist
 
 Xref: Bagian 3.2.5, Mengelola data peminjaman buku
    
-**2.2.6 admin mengelola data pengembalian buku**
+**2.2.6 admin mengelola data rak**
 
 Use Case: Mengelola data pengembalian buku
 
 Diagram:
-![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/Mengelola%20Data%20Pengembalian%20Buku.png)
+![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/e84921b5ed25d6f22829aed7e4605347b3606df0/Img/Mengelola%20Data%20Rak.png)
 
 Deskripsi Singkat
 
