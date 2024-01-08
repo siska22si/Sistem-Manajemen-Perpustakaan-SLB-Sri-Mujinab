@@ -2,7 +2,7 @@
 <body>
 
 <p align="center">
-<img src="https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/c8d3b3bf3ceef6afc20160a84ac68ccfda32fe5a/Img/Cover.jpg"/ >
+<img src="https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/7cf3b45ba972f7d138e8376d9a216355cec309e7/Img/Cover2.jpg"/ >
 </p>
 
 </body>
