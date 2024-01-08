@@ -152,7 +152,7 @@ Xref: Bagian 3.2.2 Pencarian buku
 Use Case: admin Login
 
 Diagram :
-![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/Login.png)
+![](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/235f7a8395d6ed741a09df19da5a579c51f2d06e/Img/Login.png)
 
 Deskripsi Singkat
 
