@@ -338,13 +338,13 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 
 ![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/bff47ab0fe615ebe7b12a0620440b0689b6e7021/Img/FRAMEWORK-Page-2.drawio%20(2).png)
 
-**Tabel Pustakawan**
+**Tabel User**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_pustakawan | int | Nomor auto increment id_pustakawan|
-| Username | varchar | berisikan Nama Lengkap untuk akses pustakawan |
-| Password | varchar | berisikan password untuk login pustakawan |
+| Id | int | Nomor auto increment id_pustakawan|
+| Username | varchar | berisikan username untuk akses admin |
+| Password | varchar | berisikan password untuk akses admin |
 
 **Tabel Buku**
 
@@ -358,6 +358,7 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | jumlah | int | Jumlah buku |
 | tahun | int | Tahun terbit buku |
 | status | varchar | Status ketersediaan buku |
+| sampul | varchar | Sampul buku |
 
 **Tabel Peminjaman**
 
@@ -369,7 +370,7 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 | tanggal_pinjam | date | Tanggal buku dipinjam |
 | tanggal_kembali | date | Tanggal buku dikembalikan |
 
-**Tabel Pengembalian**
+**Tabel Rak**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
