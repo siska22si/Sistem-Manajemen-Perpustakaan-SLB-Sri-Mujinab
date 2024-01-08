@@ -51,7 +51,7 @@ Pada sistem manajemen perpustakaan ini akan menampilkan buku yang sudah diinputk
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/62bad9503c2595589a11082f98dc311c96d3ac09/Img/use%20case%20Sistem%20Manajemen%20Perpustakaan.png)
+![enter image description here](https://github.com/siska22si/Sistem-Manajemen-Perpustakaan-SLB-Sri-Mujinab/blob/4518781565d6c6c463b16d6157009db95f2c95fc/Img/UseCaseDiagram1.png)
 
 Sistem Manajemen Perpustakaan SLB Sri Mujinab memiliki 2 user, yaitu Siswa atau Tamu dan admin. admin bertugas untuk mengelola data, agar bisa diakses oleh Siswa atau Tamu. Sedangkan, Siswa atau Tamu yang akan mengakses data di Sistem ini.
 
