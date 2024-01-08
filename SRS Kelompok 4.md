@@ -388,6 +388,10 @@ Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapa
 **Pembagian Jobdesc**
 ----------
 
+WEBSITE : Siska Limarga <br>
+FIGMA : M. Defri Lubis <br>
+Power Point : Nisa Khotimah & Afifah Aulia Amri <br>
+Table database : Siska Limarga, Nisa Khotimah & Afifah Aulia Amri <br>
 BAB 1 Pendahuluan <br>
 1.1 Tujuan : Nisa Khotimah <br>
 1.2 Lingkup : Nisa Khotimah <br>
@@ -420,4 +424,3 @@ BAB III Requirement specification <br>
 3.1 Persyaratan Antarmuka Eksternal : Afifah Aulia Amri <br>
 3.2 Functional Requirement : Afifah Aulia Amri <br>
 3.3 Struktur Detail Kebutuhan Non-Fungsional : Siska Limarga <br>
-FIGMA : M. Defri Lubis <br>
